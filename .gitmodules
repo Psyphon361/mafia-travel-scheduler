@@ -1,0 +1,3 @@
+[submodule "foundry-travel-scripts"]
+	path = foundry-travel-scripts
+	url = https://github.com/Psyphon361/foundry-travel-scripts
