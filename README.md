@@ -95,11 +95,11 @@ Follow Linux steps on WSL if not installed by default (WSL install guide in Sect
 
 1. Clone the Repository:
    ```bash
-   git clone --recurse-submodules https://github.com/Psyphon361/mafia-travel-script.git
+   git clone --recurse-submodules https://github.com/Psyphon361/mafia-travel-scheduler.git
    ```
 2. Navigate to the Directory:
    ```bash
-   cd mafia-travel-script
+   cd mafia-travel-scheduler
    ```
 
 ---
