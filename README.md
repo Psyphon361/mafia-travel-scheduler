@@ -114,7 +114,7 @@ npm install
 ### 2️⃣ Install Foundry Dependencies
 1. Navigate to the submodule:
    ```bash
-   cd foundry-crime-scripts
+   cd foundry-travel-scripts
    ```
 2. Install: `forge install`
 3. Return: `cd ..`
@@ -231,7 +231,7 @@ pm2 restart run-travel-script
 
 ### 4️⃣ Updating the Submodule
 ```bash
-cd foundry-crime-scripts
+cd foundry-travel-scripts
 git pull origin main
 cd ..
 pm2 restart run-travel-script
