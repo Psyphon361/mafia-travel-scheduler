@@ -101,7 +101,7 @@ async function runTravel(chainName, keystoreName, keystorePassword, destinationC
     const chain = chains[chainName];
     const command = `forge script ${chain.script} --rpc-url ${chain.rpcUrl} --broadcast --account ${keystoreName} --password ${keystorePassword} --sig "run(uint8,uint8,uint256)" ${destinationCity} ${travelType} ${itemId}`;
 
-    const { stdout, stderr } = await execPromise(command, { cwd: "./foundry-travel-script" });
+    const { stdout, stderr } = await execPromise(command, { cwd: "./foundry-travel-scripts" });
     console.log(`${chainName} travel to city ${destinationCity} (travelType: ${travelType}, itemId: ${itemId}) executed successfully for ${keystoreName}`);
 
     return { success: true };
