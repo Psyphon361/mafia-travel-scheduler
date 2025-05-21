@@ -6,7 +6,7 @@ require("dotenv").config();
 const execPromise = util.promisify(exec);
 
 // Chain choice: 0 -> PLS, 1 -> BNB, 2 -> BOTH
-const CHAIN_CHOICE = parseInt(process.env.CHAIN_CHOICE) || 2;
+const CHAIN_CHOICE = parseInt(process.env.CHAIN_CHOICE);
 
 // Validate CHAIN_CHOICE
 if (![0, 1, 2].includes(CHAIN_CHOICE)) {
